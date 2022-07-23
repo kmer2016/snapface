@@ -1,0 +1,11 @@
+<header>
+    <h1>snapface</h1>
+    <nav>
+        <!-- routerLinkActive allow to pass the css class to apply when the link is selected. 
+        But it apply the class on the link and all the children links of this link.
+        So to specify that we want to apply the active class only on the link clicked, 
+        we use [routerLinkActiveOptions]="{exact: true}" -->
+        <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        <a routerLink="facesnaps" routerLinkActive="active">Facesnaps</a>
+    </nav>
+</header>
